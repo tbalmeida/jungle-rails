@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # resources :about,  only: [:index]
   get '/about', to: 'about#index'
 
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:index, :show]
   
