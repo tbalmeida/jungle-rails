@@ -1,2 +1,16 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Jungle's Admin Dashboard</h1>
+<p>You'll find below the count of our Products and Categories.
+
+<div class="panel panel-default">
+  <div class="panel-heading">Products</div>
+  <div class="panel-body">
+    Total count: <%=link_to @product_count, [:admin, :products]%>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Categories</div>
+  <div class="panel-body">
+    Total count: <%=@category_count%>
+  </div>
+</div>
