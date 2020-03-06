@@ -1,12 +1,34 @@
-<h1>Signup!</h1>
+<section class="admin-categories-new">
+
+  <header class="page-header">
+    <h1>Signup</h1>
+  </header>
 
 <%= form_for :user, url: '/users' do |f| %>
-
-  <Br>First name: <%= f.text_field :first_name %>
-  <Br>Last name: <%= f.text_field :last_name %>
-  <Br>Email: <%= f.text_field :email %>
-  <Br>Password: <%= f.password_field :password %>
-  <Br>Password Confirmation: <%= f.password_field :password_confirmation %>
-  <%= f.submit "Submit" %>
-
+<form>
+  <div class="form-group">
+    <label>First name</label>
+    <%= f.text_field :first_name, class: "form-control" %>
+  </div>
+    <div class="form-group">
+    <label>Last name</label>
+    <%= f.text_field :last_name, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <%= f.text_field :email, class: "form-control", placeholder: "Email" %>
+  </div>
+  <div class="form-group">
+    <label">Password</label>
+    <%= f.password_field :password, class: "form-control", placeholder: "Password" %>
+  </div>
+  <div class="form-group">
+    <label">Password confirmation</label>
+    <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Password confirmation" %>
+  </div>
+  <%= f.submit "Submit", class: 'btn btn-primary center' %>
+  <%# <button type="submit" class="btn btn-default">Submit</button> %>
+</form>
 <% end %>
+
+</section>
