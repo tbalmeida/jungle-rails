@@ -27,4 +27,26 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 # Screenshots
+Main page
+
 ![Main page](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20main.png)
+
+Product categories
+
+![Menu](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20menu.png)
+
+Cart
+
+![Cart](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20cart.png)
+
+New Product
+
+![Create new product](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20create%20new%20product.png)
+
+Use Login
+
+![Login](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20login.png)
+
+User sign up
+
+![Sign-up](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20screenshot.png)
