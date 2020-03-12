@@ -27,4 +27,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 # Screenshots
-![Main page](https://octodex.github.com/images/yaktocat.png)
+![Main page](https://github.com/tbalmeida/jungle-rails/blob/master/docs/Jungle%20-%20main.png)
